@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Login Page</title>
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Font Awesomes -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+
+  <!-- Bootsrap Script Link -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+  <div class="navbar navbar-expand-lg bg-dark navbar-dark">
+
+    <div class="container-fluid">
+      <a href="#" class="navbar-brand">Online Notice Board</a>
+  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarToggler">
+
+    <ul class="navbar-nav">
+      <li class="nav-item "><a href="#" class="nav-link"><i class="fa-solid fa-user"></i> About</a></li>
+      <li class="nav-item"><a href="#" class="nav-link"><i class="fa-solid fa-id-badge"></i> Contact</a></li>
+    </ul>
+    <ul class="navbar-nav ms-auto">
+      <li class="nav-item hr"><a href="#signup" class="nav-link"><i class="fa-solid fa-user-plus"></i> Signup</a></li>
+      <li class="nav-item"><a href="#login" class="nav-link"><i class="fa-solid fa-right-to-bracket"></i> Login</a></li>
+    </ul>
+    </div>
+    </div>
+  </div>
+  <div id="carouselControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item  active">
+        <img src="images/notice.jpg" class="d-block w-100 carousel-img" alt="...">
+      </div>
+      <div class="carousel-item ">
+        <img src="images/notice1.jpg" class="d-block w-100 carousel-img" alt="...">
+      </div>
+      <div class="carousel-item ">
+        <img src="images/notice-board.jpg" class="d-block w-100 carousel-img" alt="...">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+</div>
+
+  <div class="row">
+    <div class="col-6">
+      <div id="login">
+        <h1>LOGIN FORM</h1>
+        <form class="" action="index.html" method="post">
+          <p><label for="">Email-ID:-</label>
+          <input type="email" name="" value=""></p>
+          <p><label for="">Password:-</label>
+          <input type="password" name="" value=""></p>
+            <p>Forget <a href="#">Password</a>?</p>
+          <button type="submit" class="btn btn-lg btn-success" name="button">Login</button>
+          <div id="signup">
+            <p>New user?<a href="https://thawing-woodland-91654.herokuapp.com/">Signup</a></p>
+
+          </div>
+        </form>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="news-panel">
+        <h1>RECENT NEWS</h1>
+        <marquee width="100%" height="220px;" direction="up" id="LatestNews" onmouseover="this.stop();" onmouseout="this.start();" scrolldelay="250">
+          <ul style="list-style-type:square">
+            <a href="javascript:void(0);" style="cursor:default;">
+              <li style="margin-top:-3px;float:right;width:96%;">&nbsp;&nbsp;&nbsp; 'Date for B.Tech 4th Sem Examination-2020-2024 from 18th May 2022.'
+              </li>
+            </a>
+            <div class="clearfix" style="height: 10px;clear: both;">
+            </div>
+          </ul>
+          <ul style="list-style-type:square">
+            <a href="javascript:void(0);" style="cursor:default;">
+              <li style="margin-top:-3px;float:right;width:96%;">&nbsp;&nbsp;&nbsp; 'Date for submit of Fees B.Tech 4th Sem further extended till 20th May 2022.'
+              </li>
+            </a>
+            <div class="clearfix" style="height: 10px;clear: both;">
+            </div>
+          </ul>
+          <ul style="list-style-type:square">
+            <a href="javascript:void(0);" style="cursor:default;">
+              <li style="margin-top:-3px;float:right;width:96%;">&nbsp;&nbsp;&nbsp; 'Date for B.Tech 1st Sem Examination-2021-224 from 12th June 2021.'
+              </li>
+            </a>
+            <div class="clearfix" style="height: 10px;clear: both;">
+            </div>
+          </ul>
+        </marquee>
+      </div>
+    </div>
+  </div>
+
+</body>
+<footer>&copy Team-one@2020</footer>
+
+</html>

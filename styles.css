@@ -1,0 +1,27 @@
+h1{
+  color: #06283D;
+}
+.carousel-img{
+  width: 100px;
+  padding: 2% 30% 5%;
+  background-color: #B2C8DF;
+}
+.navbar{
+  padding: 1% 5% 1%;
+}
+.row{
+  text-align: center;
+
+}
+.btn{
+  width: 30%;
+}
+.news-panel{
+  border: 2px dotted grey;
+}
+footer{
+  text-align: center;
+  padding-top: 5%;
+  color: #fff;
+  background-color: #898AA6;
+}
